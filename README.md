@@ -1,6 +1,4 @@
-# MIFilter
-
-<img align="right" width="200" height="200" src="logo.PNG">
+# MIFilter  <img align="right" width="200" height="200" src="logo.PNG">
 
 
 Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
