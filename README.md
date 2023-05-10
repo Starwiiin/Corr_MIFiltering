@@ -93,7 +93,7 @@ MI_analysis_plot(0.001, 0.07, 0.01, X_train, y_train, X_test, 0.95)
 
 ```
 
-<img align="center" width="200" height="200" src="man/figures/3D plot1.PNG">
+<img align="center" width="200" height="200" src="man/figures/3D plot1.png">
 
 
 `MI_cor_plot` is a 3D plot which shows the relation of `MI_threshold` and `cor_threshold` of the chosen features.
@@ -102,7 +102,7 @@ MI_analysis_plot(0.001, 0.07, 0.01, X_train, y_train, X_test, 0.95)
 MI_cor_plot(0.001, 0.07, 0.01, 0.8, 0.95, 0.05, X_train, y_train, X_test)
 ```
 
-<img align="center" width="200" height="200" src="man/figures/3D plot2.PNG">
+<img align="center" width="200" height="200" src="man/figures/3D plot2.png">
 
 
 ## Source
