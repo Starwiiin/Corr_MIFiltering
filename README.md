@@ -1,4 +1,4 @@
-# MIFilter
+# MIFilter <img src="man/figures/logo.png" align="right" height="139" />
 ================
 Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
 2023-05-09
@@ -6,10 +6,6 @@ Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
 <!-- [![R-CMD-check](https://github.com/Starwiiin/Corr_MIFiltering/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Starwiiin/Corr_MIFiltering/actions/workflows/R-CMD-check.yaml) -->
 <!-- [![Coverage status](https://codecov.io/gh/Starwiiin/Corr_MIFiltering/branch/main/graph/badge.svg)](https://codecov.io/github/Starwiiin/Corr_MIFiltering?branch=main) -->
 
-
-<a href="https://Starwiiin.github.io/Corr_MIFiltering/"><img src="logo.png" align="right" height="139" /></a>
-
-# scoreLR <img src="man/figures/logo.png" align="right" height="139" />
 
 <!-- # scoreLR -->
 
