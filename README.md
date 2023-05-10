@@ -68,19 +68,19 @@ The `correlation_based_filtering` function has 3 outputs. The `reduced version o
 ``` r
 filtering_function_output = correlation_based_filtering(X_train, y_train, MI_threshold = 0.01, cor_threshold = 0.95, X_test)
 
-reduced_X_train = filtering_function_output$x1
-reduced_X_test = filtering_function_output$x2
-features_list = filtering_function_output$x3
+reduced_X_train <- filtering_function_output$x1
+reduced_X_test <- filtering_function_output$x2
+features_list <- filtering_function_output$x3
 
 ```
 
 The `scaling_train_test` function will scale all the data in X_train and X_test and has two outputs.
 
 ```r
-scaling_function_output = scaling_train_test(reduced_X_train, reduced_X_test)
+scaling_function_output <- scaling_train_test(reduced_X_train, reduced_X_test)
 
-scaled_X_train = scaling_function_output$y1
-scaled_X_test = scaling_function_output$y2
+scaled_X_train <- scaling_function_output$y1
+scaled_X_test <- scaling_function_output$y2
 
 ```
 
