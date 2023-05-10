@@ -1,13 +1,6 @@
 # MIFilter
 
-<img align="right" width="100" height="100" src="logo.PNG">
-
-
-![logo](https://github.com/Starwiiin/Corr_MIFiltering/assets/103682802/3692ec15-86a4-432d-b9b6-e91ee532e045)
-
-
-
-
+<img align="right" width="200" height="200" src="logo.PNG">
 
 
 Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
