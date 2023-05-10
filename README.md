@@ -1,12 +1,13 @@
 # MIFilter
 
-<p align="right" width="100%">
-    <img width="33%" src="man/figures/logo.png">
-</p>
+
 
 
 
 ![logo](https://github.com/Starwiiin/Corr_MIFiltering/assets/103682802/3692ec15-86a4-432d-b9b6-e91ee532e045)
+<p align="right" width="100%">
+    <img width="33%" src="man/figures/logo.png">
+</p>
 
 <img src="[man/figures/logo.png](https://github.com/Starwiiin/Corr_MIFiltering/assets/103682802/3692ec15-86a4-432d-b9b6-e91ee532e045)" align="right" height="139" />
 
