@@ -6,10 +6,6 @@ Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
 
 2023-05-09
 
-<!-- [![R-CMD-check](https://github.com/Starwiiin/Corr_MIFiltering/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Starwiiin/Corr_MIFiltering/actions/workflows/R-CMD-check.yaml) -->
-<!-- [![Coverage status](https://codecov.io/gh/Starwiiin/Corr_MIFiltering/branch/main/graph/badge.svg)](https://codecov.io/github/Starwiiin/Corr_MIFiltering?branch=main) -->
-
-
 
 This package helps with dimensional reduction (feature selection) in a dataset with highly correlated features to improve the classification performance and decrease the run time. This package requires `X_train`, `y_train`, `X_test`, `linear correlation` and `the mutual information (MI) threshold` as inputs, and returns `selected features list` and `the new reduced dataset`.
 
@@ -56,15 +52,16 @@ How do you use `MIFilter` package?
 Read a dataset in that has the following columns:
 
 -   `Features`: the data related to different features can be found on different columns.         These do not have to be named in an specific way.
--   `response variable`: the ground truth for the classification problem.
+-   `response variable`: A binary lable for each observation in the dataset.
 
-The following dataset is included in the package:
+The sample dataset is included in the package and you can read it using:
 
 ``` r
-data(X_train)
-data(y_train)
-data(X_test)
-data(y_test)
+X_train <- read_csv("inst/extdata/X_train_data_stat585.csv")
+y_train <- read_csv("inst/extdata/y_train_data_stat585.csv")
+X_test <- read_csv("inst/extdata/X_test_data_stat585.csv")
+y_test <- read_csv("inst/extdata/y_test_data_stat585.csv")
+
 ```
 
 The `correlation_based_filtering` function has 3 outputs. The `reduced version of X_train`, the `reduced version of X_test` and The `features list`.
@@ -93,17 +90,18 @@ Any type pf classification models can be applied then. The model should be fitte
 `MI_analysis_plot` is a 3D plot which shows the relation of `MI_threshold` and `mean MI` of the chosen features.
 
 ```r
-test_plot = MI_analysis_plot(0.001, 0.07, 0.01, X_train, y_train, X_test, 0.95)
-test_plot
+MI_analysis_plot(0.001, 0.07, 0.01, X_train, y_train, X_test, 0.95)
 
 ```
 
-`MI_cor_plot` is a 3D plot which shows the relation of `MI_threshold` and `mean correlation` of the chosen features.
+# adding picture
+
+`MI_cor_plot` is a 3D plot which shows the relation of `MI_threshold` and `cor_threshold` of the chosen features.
 
 ```r
-
+MI_cor_plot(0.001, 0.07, 0.01, 0.8, 0.95, 0.05, X_train, y_train, X_test)
 ```
 
 ## Source
 
-Mohammadiarvejeh, Parvin. “lalalala” (2021).
+Mohammadiarvejeh, Parvin. “A Multi-Stage Feature Selection Method to Improve Classification of Super-Ager and Cognitive Decliner Using Structural Brain MRI Data – A UK Biobank Study.” (Submitted to Alzheimer’s & Dementia: Translational Research & Clinical Interventionsin 2023.)

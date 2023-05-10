@@ -16,19 +16,19 @@ function(input, output, session) {
 
   X_train = reactive({
     req(input$file1)
-    read.csv(input$file1$datapath)
+    read.csv(input$file1$datapath, header = FALSE)
   })
 
 
   y_train = reactive({
     req(input$file2)
-    read.csv(input$file2$datapath)
+    read.csv(input$file2$datapath, header = FALSE)
   })
 
 
   X_test = reactive({
     req(input$file3)
-    read.csv(input$file3$datapath)
+    read.csv(input$file3$datapath, header = FALSE)
   })
 
 
