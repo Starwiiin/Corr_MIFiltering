@@ -1,17 +1,13 @@
 # MIFilter
 
+<img align="right" width="100" height="100" src="man/figures/logo.png">
 
-<img align="right" width="100%" src="man/figures/logo.png">
 
 ![logo](https://github.com/Starwiiin/Corr_MIFiltering/assets/103682802/3692ec15-86a4-432d-b9b6-e91ee532e045)
 
 
 
-<p align="right" width="100%">
-    <img width="33%" src="man/figures/logo.png">
-</p>
 
-<img src="[man/figures/logo.png](https://github.com/Starwiiin/Corr_MIFiltering/assets/103682802/3692ec15-86a4-432d-b9b6-e91ee532e045)" align="right" height="139" />
 
 
 Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
