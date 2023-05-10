@@ -1,18 +1,15 @@
 # MIFilter <img src="man/figures/logo.png" align="right" height="139" />
-================
+
+<!-- # MIFilter -->
+
 Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
+
 2023-05-09
 
 <!-- [![R-CMD-check](https://github.com/Starwiiin/Corr_MIFiltering/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Starwiiin/Corr_MIFiltering/actions/workflows/R-CMD-check.yaml) -->
 <!-- [![Coverage status](https://codecov.io/gh/Starwiiin/Corr_MIFiltering/branch/main/graph/badge.svg)](https://codecov.io/github/Starwiiin/Corr_MIFiltering?branch=main) -->
 
 
-<!-- # scoreLR -->
-
-<!-- badges: start -->
-
-
-<!-- badges: end -->
 
 The goal of the `MIFilter` package is to offer a sub-list of features in `classification` problems when there are too many features and the computational cost is very high. MIFilter will give you a `sub-list` of the features with the highest effect on the response variable and get rid of the less important ones. This package also offers two plots which help you understand everything about the features in your dataset.
 
