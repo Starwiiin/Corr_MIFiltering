@@ -11,7 +11,7 @@ Parvin Mohammadiarvejeh, Motahareh Kashanian, Atefeh Anisi
 
 
 
-The goal of the `MIFilter` package is to offer a sub-list of features in `classification` problems when there are too many features and the computational cost is very high. MIFilter will give you a `sub-list` of the features with the highest effect on the response variable and get rid of the less important ones. This package also offers two plots which help you understand everything about the features in your dataset.
+This package helps with dimensional reduction (feature selection) in a dataset with highly correlated features to improve the classification performance and decrease the run time. This package requires `X_train`, `y_train`, `X_test`, `linear correlation` and `the mutual information (MI) threshold` as inputs, and returns `selected features list` and `the new reduced dataset`.
 
 
 ## Requirements
