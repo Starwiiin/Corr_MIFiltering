@@ -56,10 +56,10 @@ Read a dataset in that has the following columns:
 The sample dataset is included in the package and you can read it using:
 
 ``` r
-X_train <- read_csv("inst/extdata/X_train_data_stat585.csv")
-y_train <- read_csv("inst/extdata/y_train_data_stat585.csv")
-X_test <- read_csv("inst/extdata/X_test_data_stat585.csv")
-y_test <- read_csv("inst/extdata/y_test_data_stat585.csv")
+X_train <- read_csv("inst/extdata/X_train_data_stat585.csv",header = FALSE)
+y_train <- read_csv("inst/extdata/y_train_data_stat585.csv",header = FALSE)
+X_test <- read_csv("inst/extdata/X_test_data_stat585.csv",header = FALSE)
+y_test <- read_csv("inst/extdata/y_test_data_stat585.csv",header = FALSE)
 
 ```
 
